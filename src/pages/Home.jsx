@@ -4,7 +4,9 @@ import { Button } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { ComparisonTable } from '../components/providers/ComparisonTable';
 import { ProviderCard } from '../components/providers/ProviderCard';
+import { BlogCard } from '../components/blog/BlogCard';
 import { providers } from '../data/providers';
+import { blogPosts } from '../data/blogPosts';
 import { CheckCircle2, ShieldCheck, Zap } from 'lucide-react';
 
 export default function Home() {
@@ -50,7 +52,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Detailed Reviews Section */}
       <section className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -59,9 +60,33 @@ export default function Home() {
           </div>
           
           <div className="space-y-8">
-            {providers.map((provider, index) => (
+            {providers.slice(0, 4).map((provider, index) => (
               <ProviderCard key={provider.id} provider={provider} featured={index === 0} />
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Blog Highlights Section */}
+      <section className="py-16 bg-gray-50 border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900">Latest Guides & Resources</h2>
+            <p className="mt-4 text-lg text-gray-600">
+              Expert advice to help you build, grow, and manage your online presence.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
+            {blogPosts.slice(0, 3).map((post) => (
+              <BlogCard key={post.id} post={post} />
+            ))}
+          </div>
+
+          <div className="text-center">
+            <Button variant="outline" size="lg" asChild>
+              <Link to="/blog">View All Guides</Link>
+            </Button>
           </div>
         </div>
       </section>

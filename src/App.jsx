@@ -8,6 +8,9 @@ import Terms from './pages/Terms';
 import ProviderCategory from './pages/ProviderCategory';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
+import Reviews from './pages/Reviews';
+import Resources from './pages/Resources';
+import TopPicks from './pages/TopPicks';
 
 function App() {
   return (
@@ -16,9 +19,13 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
-      <Route path="/disclosure" element={<AffiliateDisclosure />} />
       <Route path="/terms" element={<Terms />} />
       
+      {/* New Content Pages */}
+      <Route path="/reviews" element={<Reviews />} />
+      <Route path="/resources" element={<Resources />} />
+      <Route path="/top-picks" element={<TopPicks />} />
+
       {/* Blog Routes */}
       <Route path="/blog" element={<Blog />} />
       <Route path="/blog/:id" element={<BlogPost />} />

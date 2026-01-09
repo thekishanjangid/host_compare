@@ -11,8 +11,10 @@ export function Header() {
   const navigation = [
     { name: 'Domains', href: '/domains' },
     { name: 'Web Hosting', href: '/hosting' },
-    { name: 'VPS & Cloud', href: '/vps' },
-    { name: 'Blog', href: '/blog' },
+    { name: 'VPS', href: '/vps' },
+    { name: 'Reviews', href: '/reviews' },
+    { name: 'Resources', href: '/resources' },
+    { name: 'Top Picks', href: '/top-picks' },
   ];
 
   const isActive = (path) => location.pathname === path;
