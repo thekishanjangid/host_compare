@@ -1,0 +1,62 @@
+export const providers = [
+  {
+    id: 1,
+    name: 'Bluehost',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Bluehost_logo.svg/1200px-Bluehost_logo.svg.png',
+    description: 'Best overall hosting for beginners. Recommended by WordPress.org.',
+    rating: 4.8,
+    startingPrice: 2.95,
+    currency: '$',
+    period: '/mo',
+    features: ['Free Domain for 1st Year', 'Free SSL Certificate', '1-Click WordPress Install', '24/7 Support'],
+    pros: ['Official WordPress recommended', 'Easy to use dashboard', 'Great initial pricing'],
+    cons: ['Renewal rates are higher', 'No monthly billing option'],
+    bestFor: 'Beginners',
+    affiliateLink: '#'
+  },
+  {
+    id: 2,
+    name: 'Hostinger',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Hostinger_logo.png/1200px-Hostinger_logo.png',
+    description: 'Cheapest hosting plans with great performance and custom hPanel.',
+    rating: 4.7,
+    startingPrice: 1.99,
+    currency: '$',
+    period: '/mo',
+    features: ['Managed WordPress', 'Free Migration', 'Weekly Backups', 'Unlimited SSL'],
+    pros: ['Extremely affordable', 'Fast performance (LiteSpeed)', 'User-friendly interface'],
+    cons: ['No daily backups on entry plan', 'No phone support'],
+    bestFor: 'Budget Users',
+    affiliateLink: '#'
+  },
+  {
+    id: 3,
+    name: 'SiteGround',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/SiteGround_Logo_2022.svg/2560px-SiteGround_Logo_2022.svg.png',
+    description: 'Premium managed WordPress hosting with top-notch support and speed.',
+    rating: 4.9,
+    startingPrice: 3.99,
+    currency: '$',
+    period: '/mo',
+    features: ['Google Cloud Infrastructure', 'Free Daily Backups', 'SuperCacher Technology', 'Priority Support'],
+    pros: ['Excellent customer support', 'High performance & security', 'Free simple migrations'],
+    cons: ['Higher renewal price', 'Lower storage limits'],
+    bestFor: 'Performance',
+    affiliateLink: '#'
+  },
+  {
+    id: 4,
+    name: 'Namecheap',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Namecheap_Logo.svg/1200px-Namecheap_Logo.svg.png',
+    description: 'The best place to buy cheap domain names with free privacy protection.',
+    rating: 4.6,
+    startingPrice: 8.88,
+    currency: '$',
+    period: '/yr',
+    features: ['Free Domain Privacy', 'Easy Management', 'Free DNS Security', '24/7 Chat Support'],
+    pros: ['Very transparent pricing', 'Free WhoisGuard forever', 'Simple checkout flow'],
+    cons: ['Hosting is average', 'Support is chat-only'],
+    bestFor: 'Domains',
+    affiliateLink: '#'
+  }
+];
