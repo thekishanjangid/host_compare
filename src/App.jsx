@@ -7,6 +7,7 @@ import AffiliateDisclosure from './pages/AffiliateDisclosure';
 import Terms from './pages/Terms';
 import ProviderCategory from './pages/ProviderCategory';
 import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 
 function App() {
   return (
@@ -17,25 +18,60 @@ function App() {
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/disclosure" element={<AffiliateDisclosure />} />
       <Route path="/terms" element={<Terms />} />
-      <Route path="/blog" element={<Blog />} />
       
-      {/* Category Routes */}
+      {/* Blog Routes */}
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/blog/:id" element={<BlogPost />} />
+      
+      {/* Domain Comparison Routes */}
       <Route 
         path="/domains" 
         element={
           <ProviderCategory 
-            title="Best Domain Registrars 2026" 
-            description="Find the perfect domain name for your business with the most reliable registrars."
+            title="All Domain Registrars" 
+            description="Compare top domain registrars to find your perfect match."
             filterType="domain"
           />
         } 
       />
       <Route 
+        path="/best-domain-registrars" 
+        element={
+          <ProviderCategory 
+            title="Best Domain Registrars 2026" 
+            description="Top-rated registrars for security, ease of use, and support."
+            filterType="domain"
+          />
+        } 
+      />
+      <Route 
+        path="/cheapest-domain-providers" 
+        element={
+          <ProviderCategory 
+            title="Cheapest Domain Providers" 
+            description="Save money on your domain registration and renewals."
+            filterType="domain"
+          />
+        } 
+      />
+
+      {/* Hosting Comparison Routes */}
+      <Route 
         path="/hosting" 
         element={
           <ProviderCategory 
-            title="Best Web Hosting Providers 2026" 
-            description="Top-rated hosting solutions for speed, reliability, and support."
+            title="All Web Hosting Providers" 
+            description="Complete list of reliable web hosting companies."
+            filterType="hosting"
+          />
+        } 
+      />
+      <Route 
+        path="/best-web-hosting" 
+        element={
+          <ProviderCategory 
+            title="Best Web Hosting 2026" 
+            description="Performance-tested hosting for businesses and blogs."
             filterType="hosting"
           />
         } 
@@ -44,9 +80,29 @@ function App() {
         path="/vps" 
         element={
           <ProviderCategory 
-            title="Cheap VPS & Cloud Hosting" 
-            description="Scalable power for growing websites and applications."
+            title="VPS & Cloud Hosting" 
+            description="High-performance servers for growing applications."
             filterType="vps"
+          />
+        } 
+      />
+      <Route 
+        path="/best-vps-hosting" 
+        element={
+          <ProviderCategory 
+            title="Best VPS Hosting Providers" 
+            description="Top-tier virtual private servers compared."
+            filterType="vps"
+          />
+        } 
+      />
+      <Route 
+        path="/domain-hosting-bundles" 
+        element={
+          <ProviderCategory 
+            title="Best Domain & Hosting Bundles" 
+            description="Get a free domain when you buy hosting from these providers."
+            filterType="hosting"
           />
         } 
       />
