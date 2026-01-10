@@ -15,6 +15,7 @@ export function Header() {
     { name: 'Reviews', href: '/reviews' },
     { name: 'Resources', href: '/resources' },
     { name: 'Top Picks', href: '/top-picks' },
+    { name: 'Blog', href: '/blog' },
   ];
 
   const isActive = (path) => location.pathname === path;
