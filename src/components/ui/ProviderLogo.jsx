@@ -19,22 +19,22 @@ import greengeeksLogo from '../../assets/logo/GreenGeeks.png';
 import cloudwaysLogo from '../../assets/logo/cloudways-vertical.svg';
 
 const logoMap = {
-  'namecheap': namecheapLogo,
-  'godaddy': godaddyLogo,
-  'dynadot': dynadotLogo,
-  'porkbun': porkbunLogo,
-  'google-domains': googleDomainsLogo,
-  'ionos': ionosLogo,
-  'domain-com': domainComLogo,
-  'hover': hoverLogo,
-  'bluehost': bluehostLogo,
-  'hostinger': hostingerLogo,
-  'siteground': sitegroundLogo,
-  'a2-hosting': a2Logo,
-  'dreamhost': dreamhostLogo,
-  'inmotion': inmotionLogo,
-  'greengeeks': greengeeksLogo,
-  'cloudways': cloudwaysLogo,
+  1: namecheapLogo,
+  2: godaddyLogo,
+  3: dynadotLogo,
+  4: porkbunLogo,
+  5: googleDomainsLogo,
+  6: ionosLogo,
+  7: domainComLogo,
+  8: hoverLogo,
+  9: bluehostLogo,
+  10: hostingerLogo,
+  11: sitegroundLogo,
+  12: a2Logo,
+  13: dreamhostLogo,
+  14: inmotionLogo,
+  15: greengeeksLogo,
+  16: cloudwaysLogo,
 };
 
 // Simple SVG placeholder for fallback

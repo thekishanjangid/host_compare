@@ -1,7 +1,7 @@
 export const providers = [
   // Domain Registrars
   {
-    id: 'namecheap',
+    id: 1,
     name: 'Namecheap',
     description: 'The best place to buy cheap domain names with free privacy protection.',
     rating: 4.8,
@@ -16,7 +16,7 @@ export const providers = [
     affiliateLink: 'https://www.namecheap.com'
   },
   {
-    id: 'godaddy',
+    id: 2,
     name: 'GoDaddy',
     description: 'The world’s largest domain registrar with a vast marketplace.',
     rating: 4.5,
@@ -31,7 +31,7 @@ export const providers = [
     affiliateLink: 'https://www.godaddy.com'
   },
   {
-    id: 'dynadot',
+    id: 3,
     name: 'Dynadot',
     description: 'Great interface and transparent pricing for domain investors.',
     rating: 4.7,
@@ -46,7 +46,7 @@ export const providers = [
     affiliateLink: 'https://www.dynadot.com'
   },
   {
-    id: 'porkbun',
+    id: 4,
     name: 'Porkbun',
     description: 'Quirky branding with some of the lowest renewal rates in the industry.',
     rating: 4.9,
@@ -61,7 +61,7 @@ export const providers = [
     affiliateLink: 'https://porkbun.com'
   },
   {
-    id: 'google-domains',
+    id: 5,
     name: 'Google Domains',
     description: 'Simple, secure, and reliable integration with Google Workspace.',
     rating: 4.7,
@@ -76,7 +76,7 @@ export const providers = [
     affiliateLink: 'https://domains.google'
   },
   {
-    id: 'ionos',
+    id: 6,
     name: 'IONOS',
     description: 'Very cheap first-year offers for domains and hosting.',
     rating: 4.2,
@@ -91,7 +91,7 @@ export const providers = [
     affiliateLink: 'https://www.ionos.com'
   },
   {
-    id: 'domain-com',
+    id: 7,
     name: 'Domain.com',
     description: 'Reliable registrar focused on simplicity and stability.',
     rating: 4.3,
@@ -106,7 +106,7 @@ export const providers = [
     affiliateLink: 'https://www.domain.com'
   },
   {
-    id: 'hover',
+    id: 8,
     name: 'Hover',
     description: 'No-nonsense registrar with a focus on privacy and support.',
     rating: 4.8,
@@ -123,7 +123,7 @@ export const providers = [
 
   // Web Hosting
   {
-    id: 'bluehost',
+    id: 9,
     name: 'Bluehost',
     description: 'Best overall hosting for beginners. Recommended by WordPress.org.',
     rating: 4.7,
@@ -138,7 +138,7 @@ export const providers = [
     affiliateLink: 'https://www.bluehost.com'
   },
   {
-    id: 'hostinger',
+    id: 10,
     name: 'Hostinger',
     description: 'Unbeatable price to performance ratio with custom hPanel.',
     rating: 4.8,
@@ -153,7 +153,7 @@ export const providers = [
     affiliateLink: 'https://www.hostinger.com'
   },
   {
-    id: 'siteground',
+    id: 11,
     name: 'SiteGround',
     description: 'Premium managed WordPress hosting with Google Cloud infrastructure.',
     rating: 4.9,
@@ -168,7 +168,7 @@ export const providers = [
     affiliateLink: 'https://www.siteground.com'
   },
   {
-    id: 'a2-hosting',
+    id: 12,
     name: 'A2 Hosting',
     description: 'Known for their high-speed Turbo Servers and developer-friendly features.',
     rating: 4.5,
@@ -183,7 +183,7 @@ export const providers = [
     affiliateLink: 'https://www.a2hosting.com'
   },
   {
-    id: 'dreamhost',
+    id: 13,
     name: 'DreamHost',
     description: 'Reliable, independent hosting with a 97-day money-back guarantee.',
     rating: 4.6,
@@ -198,7 +198,7 @@ export const providers = [
     affiliateLink: 'https://www.dreamhost.com'
   },
   {
-    id: 'inmotion',
+    id: 14,
     name: 'InMotion',
     description: 'US-based support and great VPS options for growing businesses.',
     rating: 4.4,
@@ -213,7 +213,7 @@ export const providers = [
     affiliateLink: 'https://www.inmotionhosting.com'
   },
   {
-    id: 'greengeeks',
+    id: 15,
     name: 'GreenGeeks',
     description: 'Eco-friendly hosting that matches 300% of energy use with renewables.',
     rating: 4.7,
@@ -228,7 +228,7 @@ export const providers = [
     affiliateLink: 'https://www.greengeeks.com'
   },
   {
-    id: 'cloudways',
+    id: 16,
     name: 'Cloudways',
     description: 'Managed cloud hosting platform using DigitalOcean, AWS, and Google Cloud.',
     rating: 4.9,

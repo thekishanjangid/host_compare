@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Layout } from '../components/layout/Layout';
 import { PageHeader } from '../components/layout/PageHeader';
 import { Card } from '../components/ui/Card';
@@ -37,6 +38,14 @@ export default function Blog() {
                 <p className="text-gray-600 text-sm mb-4 line-clamp-3">
                   {post.excerpt}
                 </p>
+                <div className="mb-4">
+                  <Link 
+                    to={`/blog/${post.id}`} 
+                    className="text-brand-600 font-semibold hover:text-brand-700 hover:underline text-sm inline-flex items-center"
+                  >
+                    Read More &rarr;
+                  </Link>
+                </div>
                 <div className="mt-auto pt-4 border-t border-gray-100 flex items-center justify-between">
                    <div className="flex items-center text-xs text-gray-500">
                      <User className="w-3 h-3 mr-1" />

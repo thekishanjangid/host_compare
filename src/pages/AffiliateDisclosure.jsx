@@ -37,6 +37,11 @@ export default function AffiliateDisclosure() {
           While we strive to keep our information accurate and up-to-date, pricing and terms of service for the providers we list can change without notice. We cannot guarantee the performance or reliability of any third-party service provider. Your use of any service is subject to that provider's own terms and conditions.
         </p>
 
+        <h3>Questions?</h3>
+        <p>
+          If you have any questions about our affiliate relationships or how we fund this site, please contact us at <a href="mailto:support@hostadvisorpro.com">support@hostadvisorpro.com</a>.
+        </p>
+
         <p className="mt-8 pt-8 border-t border-gray-200 text-sm">
           Last updated: January 2026
         </p>

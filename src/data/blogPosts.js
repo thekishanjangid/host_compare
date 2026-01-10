@@ -1,6 +1,6 @@
 export const blogPosts = [
   {
-    id: 'right-domain-name',
+    id: 1,
     title: 'How to Choose the Right Domain Name for Your Website',
     excerpt: 'Your domain name is your identity on the web. Learn the key principles of choosing a memorable, SEO-friendly, and brandable domain name.',
     content: `
@@ -23,14 +23,14 @@ export const blogPosts = [
       <h2>Conclusion</h2>
       <p>Take your time. Once you register a domain, it's yours for a year. Make sure it's the one you want to build your brand on.</p>
     `,
-    date: 'February 15, 2026',
+    date: 'January 1, 2026',
     author: 'Sarah Johnson',
     category: 'Domains',
     readTime: '8 min read',
     image: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
   },
   {
-    id: 'registrar-vs-hosting',
+    id: 2,
     title: 'Domain Registrar vs Web Hosting – Complete Beginner Guide',
     excerpt: 'Confused about the difference between a domain and hosting? We explain how they work together to get your website online.',
     content: `
@@ -47,14 +47,14 @@ export const blogPosts = [
       <h2>Should You Buy Them Together?</h2>
       <p>Many hosting companies (like Bluehost or Hostinger) offer a free domain for the first year. This is convenient for beginners. However, keeping them separate (e.g., Domain at Namecheap, Hosting at SiteGround) can offer better security and easier transferability later.</p>
     `,
-    date: 'February 12, 2026',
+    date: 'January 8, 2026',
     author: 'Mike Chen',
     category: 'Beginners',
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
   },
   {
-    id: 'domain-extensions-explained',
+    id: 3,
     title: 'Best Domain Extensions Explained (.com, .net, .org, new TLDs)',
     excerpt: 'From classic .com to niche .tech, we explore the pros and cons of different domain extensions and which one is right for you.',
     content: `
@@ -79,14 +79,14 @@ export const blogPosts = [
       <h2>Does Extension Affect SEO?</h2>
       <p>Google says no. A .pizza domain can rank just as well as a .com. However, user trust and click-through rates (CTR) are often higher for .com.</p>
     `,
-    date: 'February 10, 2026',
+    date: 'December 10, 2025',
     author: 'Jessica Williams',
     category: 'Domains',
     readTime: '7 min read',
     image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
   },
    {
-    id: 'domain-pricing-works',
+    id: 4,
     title: 'How Domain Pricing Works (Registration vs Renewal Costs)',
     excerpt: 'Don\'t get caught by surprise. Learn how introductory offers work and why renewal prices act the way they do.',
     content: `
@@ -103,14 +103,14 @@ export const blogPosts = [
         <li><strong>Redemption Fees:</strong> If you let your domain expire, getting it back can cost $80-$200.</li>
       </ul>
     `,
-    date: 'February 08, 2026',
+    date: 'January 8, 2026',
     author: 'Sarah Johnson',
     category: 'Pricing',
     readTime: '5 min read',
     image: 'https://images.unsplash.com/photo-1580519542024-aa5c8c9b9755?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
   },
   {
-    id: 'transfer-domain',
+    id: 5,
     title: 'How to Transfer a Domain Between Registrars',
     excerpt: 'Moving your domain to a new provider is easier than you think. Follow this step-by-step checklist to do it safely.',
     content: `
@@ -128,14 +128,14 @@ export const blogPosts = [
       <h2>Crucial rules</h2>
       <p>You cannot transfer a domain within 60 days of registering it or transferring it previously. This is an ICANN rule.</p>
     `,
-    date: 'February 05, 2026',
+    date: 'February 05, 2025',
     author: 'Mike Chen',
     category: 'Guides',
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
   },
   {
-    id: 'best-registrars-startups',
+    id: 6,
     title: 'Best Domain Registrars for Startups',
     excerpt: 'Startups have unique needs: privacy, security, and scalability. We rank the top registrars for growing businesses.',
     content: `
@@ -152,14 +152,14 @@ export const blogPosts = [
       <h2>Tip for Startups</h2>
       <p>Buy the .com if you can. It adds instant credibility for investors and customers.</p>
     `,
-    date: 'February 03, 2026',
+    date: 'February 03, 2025',
     author: 'Jessica Williams',
     category: 'Best Of',
     readTime: '7 min read',
     image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
   },
   {
-    id: 'best-registrars-bloggers',
+    id: 7,
     title: 'Best Domain Registrars for Bloggers',
     excerpt: 'Bloggers need simplicity and low costs. Here are the best places to buy your first blog domain.',
     content: `
@@ -176,14 +176,14 @@ export const blogPosts = [
         <li><strong>Porkbun:</strong> Very cheap renewals if you plan to blog for years.</li>
       </ul>
     `,
-    date: 'February 01, 2026',
+    date: 'February 01, 2025',
     author: 'Sarah Johnson',
     category: 'Best Of',
     readTime: '5 min read',
     image: 'https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
   },
   {
-    id: 'hosting-works-simple',
+    id: 8,
     title: 'How Web Hosting Works (Simple Explanation)',
     excerpt: 'No jargon. Just a simple explanation of servers, bandwidth, and what you’re actually paying for.',
     content: `
@@ -200,14 +200,14 @@ export const blogPosts = [
       <h2>Do I Need a "Server"?</h2>
       <p>Yes, but you don't need a physical one in your house. Hosting companies have massive warehouses (data centers) full of them, and you just rent a tiny slice.</p>
     `,
-    date: 'January 28, 2026',
+    date: 'January 28, 2025',
     author: 'Mike Chen',
     category: 'Beginners',
     readTime: '4 min read',
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
   },
   {
-    id: 'shared-vps-cloud',
+    id: 9,
     title: 'Shared vs VPS vs Cloud Hosting Compared',
     excerpt: 'Scaling up? Learn the differences between shared hosting, VPS, and cloud hosting to find the right power for your site.',
     content: `
@@ -223,14 +223,14 @@ export const blogPosts = [
       <p><strong>Analogy:</strong> Airbnb network. If one house breaks, you instantly move to another one. It's infinite and redundant.</p>
       <p><strong>Best for:</strong> Apps, SaaS, critical business sites.</p>
     `,
-    date: 'January 25, 2026',
+    date: 'January 5, 2026',
     author: 'Jessica Williams',
     category: 'Hosting',
     readTime: '9 min read',
     image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
   },
   {
-    id: 'best-hosting-beginners',
+    id: 10,
     title: 'Best Web Hosting for Beginners',
     excerpt: 'Starting your first site? These hosts make it incredibly easy with 1-click installs and 24/7 support.',
     content: `
@@ -243,14 +243,14 @@ export const blogPosts = [
       <h2>Runner Up: Hostinger</h2>
       <p>Cheaper, slightly faster, but the dashboard is a bit more manual. Great if you are willing to learn a little.</p>
     `,
-    date: 'January 22, 2026',
+    date: 'December 2, 2025',
     author: 'Sarah Johnson',
     category: 'Best Of',
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
   },
   {
-    id: 'speed-impacts-seo',
+    id: 11,
     title: 'How Website Speed Impacts SEO',
     excerpt: 'Google hates slow websites. We explain Core Web Vitals and why shaving milliseconds off your load time boosts rankings.',
     content: `
@@ -263,14 +263,14 @@ export const blogPosts = [
       <h2>How Hosting Helps</h2>
       <p>A good host (like SiteGround or A2) uses SSDs, caching, and CDNs to serve your content faster. A cheap host overloads their servers, causing lag.</p>
     `,
-    date: 'January 20, 2026',
+    date: 'November 20, 2025',
     author: 'Mike Chen',
     category: 'SEO',
     readTime: '7 min read',
     image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
   },
   {
-    id: 'hosting-mistakes',
+    id: 12,
     title: 'Common Hosting Mistakes to Avoid',
     excerpt: 'Don\'t get locked into a bad contract. Learn the common pitfalls new website owners make when buying hosting.',
     content: `

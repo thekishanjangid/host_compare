@@ -7,7 +7,7 @@ import { Calendar, User, Clock, ArrowLeft } from 'lucide-react';
 
 export default function BlogPost() {
   const { id } = useParams();
-  const post = blogPosts.find(p => p.id === id);
+  const post = blogPosts.find(p => p.id === Number(id));
 
   if (!post) {
     return (
@@ -25,7 +25,7 @@ export default function BlogPost() {
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <Link to="/blog" className="inline-flex items-center text-gray-500 hover:text-brand-600 mb-8 transition-colors">
           <ArrowLeft className="w-4 h-4 mr-2" />
-          Back to Guides
+          Back to Blog
         </Link>
         
         <header className="text-center mb-12">

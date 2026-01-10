@@ -68,6 +68,9 @@ export default function About() {
           <p className="text-lg text-gray-600 mb-4">
             We believe that the best recommendation is an honest one. Whether you are launching a personal blog or scaling a SaaS startup, our goal is to point you toward the tools that will actually support your growth, not just the ones that pay the highest commission.
           </p>
+          <p className="text-lg text-gray-600">
+            Have questions? Feel free to reach out to us at <a href="mailto:support@hostadvisorpro.com" className="text-brand-600 hover:text-brand-700 font-medium">support@hostadvisorpro.com</a>.
+          </p>
         </section>
       </div>
     </Layout>

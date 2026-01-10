@@ -20,6 +20,8 @@ export default function Contact() {
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Get in Touch</h2>
             <p className="text-gray-600 mb-8 leading-relaxed">
               We value your feedback. Whether you found a mistake in one of our reviews, want to suggest a new provider, or just want to say hello, please fill out the form.
+              <br /><br />
+              For fast inquiries, you can also email us directly at <a href="mailto:support@hostadvisorpro.com" className="text-brand-600 hover:text-brand-700 font-medium">support@hostadvisorpro.com</a>.
             </p>
 
             <div className="space-y-6 mb-10">
