@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 prose prose-blue text-gray-600">
         <h3>1. Introduction</h3>
         <p>
-          This Privacy Policy explains how we collect, use, and protect your information when you visit our website. By using our site, you agree to the collection and use of information in accordance with this policy.
+          This Privacy Policy explains how HostAdvisorPro collects, uses, and protects your information when you visit our website. By using our site, you agree to the collection and use of information in accordance with this policy.
         </p>
 
         <h3>2. Information We Collect</h3>

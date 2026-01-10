@@ -16,7 +16,7 @@ export default function About() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Who We Are</h2>
           <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-            Welcome to our domain and hosting comparison hub. Founded in 2026, our mission is simple: to bring transparency to the often confusing world of web infrastructure. We are a team of developers, writers, and digital marketers who know how hard it can be to choose the right tools for a new project.
+            Welcome to HostAdvisorPro. Founded in 2026, our mission is simple: to bring transparency to the often confusing world of web infrastructure. We are a team of developers, writers, and digital marketers who know how hard it can be to choose the right tools for a new project.
           </p>
           <p className="text-lg text-gray-600 leading-relaxed">
             We are not a hosting company. We are an educational resource that tests, reviews, and compares services to help you make an informed decision.

@@ -25,7 +25,7 @@ export default function Home() {
             <span className="text-brand-600">Providers Compared</span>
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500 mb-10">
-            We test and review the top domain registrars and web hosting companies so you can build your online presence with confidence.
+            HostAdvisorPro tests and reviews the top domain registrars and web hosting companies so you can build your online presence with confidence.
           </p>
           <div className="flex justify-center gap-4">
             <Button size="lg" asChild>

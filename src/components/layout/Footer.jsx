@@ -12,7 +12,7 @@ export function Footer() {
               <div className="bg-brand-600 p-1.5 rounded-lg">
                 <Globe className="h-5 w-5 text-white" />
               </div>
-              <span className="text-xl font-bold text-white tracking-tight">HostCompare</span>
+              <span className="text-xl font-bold text-white tracking-tight">HostAdvisorPro</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
               We compare the best domain registrars and hosting providers to help you make informed decisions for your online presence.
@@ -51,7 +51,7 @@ export function Footer() {
         
         <div className="mt-12 border-t border-gray-800 pt-8">
           <p className="text-xs text-gray-500 text-center">
-            &copy; {new Date().getFullYear()} HostCompare. All rights reserved.
+            &copy; {new Date().getFullYear()} HostAdvisorPro. All rights reserved.
           </p>
           <p className="mt-4 text-xs text-gray-600 text-center max-w-2xl mx-auto">
             Disclosure: We may earn a commission when you purchase through links on our site. This comes at no extra cost to you and helps us maintain our high-quality content.

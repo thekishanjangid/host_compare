@@ -11,7 +11,7 @@ export default function AffiliateDisclosure() {
       
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 prose prose-lg prose-blue text-gray-600">
         <p className="lead text-xl text-gray-800 mb-8">
-          The short version: We participate in affiliate programs. If you purchase through our links, we may earn a commission. This comes at no extra cost to you.
+          The short version: HostAdvisorPro participates in affiliate programs. If you purchase through our links, we may earn a commission. This comes at no extra cost to you.
         </p>
 
         <h3>Our Commitment to Honesty</h3>

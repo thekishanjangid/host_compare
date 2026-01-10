@@ -12,7 +12,7 @@ export default function Terms() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 prose prose-blue text-gray-600">
         <h3>1. Acceptance of Terms</h3>
         <p>
-          By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement. In addition, when using this websites particular services, you shall be subject to any posted guidelines or rules applicable to such services.
+          By accessing and using HostAdvisorPro, you accept and agree to be bound by the terms and provision of this agreement. In addition, when using this websites particular services, you shall be subject to any posted guidelines or rules applicable to such services.
         </p>
 
         <h3>2. Educational & Informational Purpose</h3>

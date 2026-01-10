@@ -22,7 +22,7 @@ export default function CookiesPolicy() {
 
             <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">2. How We Use Cookies</h2>
             <p>
-              At HostCompare, we use cookies to:
+              At HostAdvisorPro, we use cookies to:
             </p>
             <ul className="list-disc pl-6 space-y-2 mt-4 mb-8">
               <li>Ensure the basic functionality of our website works correctly.</li>
@@ -77,7 +77,7 @@ export default function CookiesPolicy() {
 
             <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-6">Contact Us</h2>
             <p>
-              If you have any questions about our use of cookies, please contact us at privacy@hostcompare.com or visit our <a href="/contact" className="text-brand-600 hover:text-brand-700 underline">Contact page</a>.
+              If you have any questions about our use of cookies, please contact us at privacy@hostadvisorpro.com or visit our <a href="/contact" className="text-brand-600 hover:text-brand-700 underline">Contact page</a>.
             </p>
           </div>
         </div>

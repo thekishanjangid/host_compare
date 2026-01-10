@@ -29,7 +29,7 @@ export function Header() {
               <div className="bg-brand-600 p-1.5 rounded-lg">
                 <Globe className="h-6 w-6 text-white" />
               </div>
-              <span className="text-xl font-bold text-gray-900 tracking-tight">HostCompare</span>
+              <span className="text-xl font-bold text-gray-900 tracking-tight">HostAdvisorPro</span>
             </Link>
           </div>
           
