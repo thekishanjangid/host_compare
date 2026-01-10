@@ -13,7 +13,7 @@ export const providers = [
     cons: ['Support is chat-only', 'Upsells during checkout'],
     bestFor: 'Domains',
     type: 'domain',
-    affiliateLink: '#'
+    affiliateLink: 'https://www.namecheap.com'
   },
   {
     id: 'godaddy',
@@ -28,7 +28,7 @@ export const providers = [
     cons: ['High renewal rates', 'Aggressive upsells'],
     bestFor: 'Domains',
     type: 'domain',
-    affiliateLink: '#'
+    affiliateLink: 'https://www.godaddy.com'
   },
   {
     id: 'dynadot',
@@ -43,7 +43,7 @@ export const providers = [
     cons: ['Marketing is minimal', 'Support response varies'],
     bestFor: 'Domains',
     type: 'domain',
-    affiliateLink: '#'
+    affiliateLink: 'https://www.dynadot.com'
   },
   {
     id: 'porkbun',
@@ -58,7 +58,7 @@ export const providers = [
     cons: ['Fewer addon services', 'Support hours are limited'],
     bestFor: 'Domains',
     type: 'domain',
-    affiliateLink: '#'
+    affiliateLink: 'https://porkbun.com'
   },
   {
     id: 'google-domains',
@@ -73,7 +73,7 @@ export const providers = [
     cons: ['Slightly pricier base', 'No hosting options'],
     bestFor: 'Domains',
     type: 'domain',
-    affiliateLink: '#'
+    affiliateLink: 'https://domains.google'
   },
   {
     id: 'ionos',
@@ -88,7 +88,7 @@ export const providers = [
     cons: ['Confusing dashboard', 'High renewal prices'],
     bestFor: 'Domains',
     type: 'domain',
-    affiliateLink: '#'
+    affiliateLink: 'https://www.ionos.com'
   },
   {
     id: 'domain-com',
@@ -103,7 +103,7 @@ export const providers = [
     cons: ['Paid privacy protection', 'Upsells'],
     bestFor: 'Domains',
     type: 'domain',
-    affiliateLink: '#'
+    affiliateLink: 'https://www.domain.com'
   },
   {
     id: 'hover',
@@ -118,7 +118,7 @@ export const providers = [
     cons: ['More expensive', 'No hosting services'],
     bestFor: 'Domains',
     type: 'domain',
-    affiliateLink: '#'
+    affiliateLink: 'https://www.hover.com'
   },
 
   // Web Hosting
@@ -135,7 +135,7 @@ export const providers = [
     cons: ['High renewals', 'No monthly option'],
     bestFor: 'Hosting',
     type: 'hosting',
-    affiliateLink: '#'
+    affiliateLink: 'https://www.bluehost.com'
   },
   {
     id: 'hostinger',
@@ -150,7 +150,7 @@ export const providers = [
     cons: ['No daily backups on entry', 'No phone support'],
     bestFor: 'Hosting',
     type: 'hosting',
-    affiliateLink: '#'
+    affiliateLink: 'https://www.hostinger.com'
   },
   {
     id: 'siteground',
@@ -165,7 +165,7 @@ export const providers = [
     cons: ['High renewal rates', 'Storage limits'],
     bestFor: 'Hosting',
     type: 'hosting',
-    affiliateLink: '#'
+    affiliateLink: 'https://www.siteground.com'
   },
   {
     id: 'a2-hosting',
@@ -180,7 +180,7 @@ export const providers = [
     cons: ['Turbo costs extra', 'Dated dashboard'],
     bestFor: 'Hosting',
     type: 'hosting',
-    affiliateLink: '#'
+    affiliateLink: 'https://www.a2hosting.com'
   },
   {
     id: 'dreamhost',
@@ -195,7 +195,7 @@ export const providers = [
     cons: ['No cPanel (custom)', 'Support not 24/7 phone'],
     bestFor: 'Hosting',
     type: 'hosting',
-    affiliateLink: '#'
+    affiliateLink: 'https://www.dreamhost.com'
   },
   {
     id: 'inmotion',
@@ -210,7 +210,7 @@ export const providers = [
     cons: ['Verification process', 'Uptime varies'],
     bestFor: 'Hosting',
     type: 'hosting',
-    affiliateLink: '#'
+    affiliateLink: 'https://www.inmotionhosting.com'
   },
   {
     id: 'greengeeks',
@@ -225,7 +225,7 @@ export const providers = [
     cons: ['High renewal', 'Setup fee on monthly'],
     bestFor: 'Hosting',
     type: 'hosting',
-    affiliateLink: '#'
+    affiliateLink: 'https://www.greengeeks.com'
   },
   {
     id: 'cloudways',
@@ -240,6 +240,6 @@ export const providers = [
     cons: ['More technical', 'No domain registration'],
     bestFor: 'VPS/Cloud',
     type: 'vps',
-    affiliateLink: '#'
+    affiliateLink: 'https://www.cloudways.com'
   }
 ];

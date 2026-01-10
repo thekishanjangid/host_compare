@@ -1,13 +1,17 @@
+import { useState } from 'react';
 import { Layout } from '../components/layout/Layout';
 import { PageHeader } from '../components/layout/PageHeader';
 import { Button } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { Badge } from '../components/ui/Badge';
 import { ProviderLogo } from '../components/ui/ProviderLogo';
+import { ProviderDetailModal } from '../components/providers/ProviderDetailModal';
 import { providers } from '../data/providers';
-import { Check, ExternalLink, Trophy } from 'lucide-react';
+import { Check, ExternalLink, Trophy, Info } from 'lucide-react';
 
 export default function TopPicks() {
+  const [selectedProvider, setSelectedProvider] = useState(null);
+
   const picks = [
     {
       title: 'Best Domain Registrar for Beginners',
@@ -78,10 +82,8 @@ export default function TopPicks() {
                       ))}
                     </div>
 
-                    <Button asChild>
-                      <a href={provider.affiliateLink} target="_blank" rel="noopener noreferrer">
-                        Visit {provider.name} <ExternalLink className="ml-2 w-4 h-4" />
-                      </a>
+                    <Button onClick={() => setSelectedProvider(provider)}>
+                      Know More Details <Info className="ml-2 w-4 h-4" />
                     </Button>
                   </div>
                 </div>
@@ -90,6 +92,12 @@ export default function TopPicks() {
           })}
         </div>
       </div>
+
+      <ProviderDetailModal 
+        provider={selectedProvider} 
+        isOpen={!!selectedProvider} 
+        onClose={() => setSelectedProvider(null)} 
+      />
     </Layout>
   );
 }

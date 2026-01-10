@@ -1,13 +1,17 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Layout } from '../components/layout/Layout';
 import { PageHeader } from '../components/layout/PageHeader';
 import { Button } from '../components/ui/Button';
 import { Badge } from '../components/ui/Badge';
 import { ProviderLogo } from '../components/ui/ProviderLogo';
+import { ProviderDetailModal } from '../components/providers/ProviderDetailModal';
 import { providers } from '../data/providers';
-import { Check, Star, ArrowRight } from 'lucide-react';
+import { Check, Star, ArrowRight, Info } from 'lucide-react';
 
 export default function Reviews() {
+  const [selectedProvider, setSelectedProvider] = useState(null);
+
   // Filter for specific providers requested for the reviews page
   const reviewProviders = providers.filter(p => 
     ['Namecheap', 'GoDaddy', 'Hostinger', 'Bluehost', 'SiteGround', 'Cloudways'].includes(p.name)
@@ -57,10 +61,8 @@ export default function Reviews() {
                      <span className="text-gray-500">Starting at </span>
                      <span className="font-bold text-gray-900">{provider.currency}{provider.startingPrice}</span>
                    </div>
-                   <Button size="sm" variant="ghost" asChild>
-                     <a href={provider.affiliateLink} target="_blank" rel="noopener noreferrer">
-                       Visit Site <ArrowRight className="ml-1 w-3 h-3" />
-                     </a>
+                   <Button size="sm" variant="ghost" onClick={() => setSelectedProvider(provider)}>
+                     Know More <Info className="ml-1 w-3 h-3" />
                    </Button>
                 </div>
               </div>
@@ -68,6 +70,12 @@ export default function Reviews() {
           ))}
         </div>
       </div>
+
+      <ProviderDetailModal 
+        provider={selectedProvider} 
+        isOpen={!!selectedProvider} 
+        onClose={() => setSelectedProvider(null)} 
+      />
     </Layout>
   );
 }
