@@ -2,7 +2,9 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '../ui/Button';
 import { Menu, X, Globe, ChevronDown } from 'lucide-react';
+
 import { cn } from '../../lib/utils';
+import { AffiliateDisclosureTooltip } from '../ui/AffiliateDisclosureTooltip';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -46,6 +48,7 @@ export function Header() {
                 {link.name}
               </Link>
             ))}
+            <AffiliateDisclosureTooltip />
             <Button size="sm" className="ml-4">
               Compare Providers
             </Button>
@@ -85,6 +88,7 @@ export function Header() {
                 {link.name}
               </Link>
             ))}
+            <AffiliateDisclosureTooltip mobile />
             <div className="pt-4">
               <Button className="w-full">Compare Providers</Button>
             </div>
