@@ -13,10 +13,12 @@ import Resources from './pages/Resources';
 import TopPicks from './pages/TopPicks';
 import CookiesPolicy from './pages/CookiesPolicy';
 import { CookieConsent } from './components/layout/CookieConsent';
+import { ScrollToTop } from './components/layout/ScrollToTop';
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
