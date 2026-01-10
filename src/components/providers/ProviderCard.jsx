@@ -2,6 +2,7 @@ import { Star, Check, X, ExternalLink } from 'lucide-react';
 import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
 import { Badge } from '../ui/Badge';
+import { ProviderLogo } from '../ui/ProviderLogo';
 
 export function ProviderCard({ provider, featured }) {
   return (
@@ -15,10 +16,10 @@ export function ProviderCard({ provider, featured }) {
       {/* Logo & Rating Section */}
       <div className="flex-shrink-0 w-full md:w-48 flex flex-col items-center justify-center border-b md:border-b-0 md:border-r border-gray-100 pb-6 md:pb-0 md:pr-6">
         <div className="h-16 w-32 flex items-center justify-center mb-4">
-          <img 
-            src={provider.logo} 
-            alt={`${provider.name} logo`} 
-            className="max-h-full max-w-full object-contain"
+          <ProviderLogo 
+            providerId={provider.id} 
+            name={provider.name} 
+            className="max-h-full max-w-full"
           />
         </div>
         <div className="flex items-center space-x-1 mb-2">
@@ -26,7 +27,7 @@ export function ProviderCard({ provider, featured }) {
             <Star 
               key={i} 
               className={`w-4 h-4 ${i < Math.floor(provider.rating) ? 'text-yellow-400 fill-yellow-400' : 'text-gray-300'}`} 
-            />
+              />
           ))}
           <span className="text-sm font-semibold text-gray-700 ml-2">{provider.rating}</span>
         </div>

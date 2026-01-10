@@ -1,5 +1,6 @@
 import { Check, X, Info } from 'lucide-react';
 import { Button } from '../ui/Button';
+import { ProviderLogo } from '../ui/ProviderLogo';
 
 export function ComparisonTable({ providers }) {
   return (
@@ -12,7 +13,11 @@ export function ComparisonTable({ providers }) {
               <th key={provider.id} scope="col" className="px-6 py-4 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
                 <div className="flex flex-col items-center gap-2">
                   <div className="h-8 w-20 flex items-center justify-center">
-                    <img src={provider.logo} alt={provider.name} className="max-h-full max-w-full object-contain" />
+                    <ProviderLogo 
+                      providerId={provider.id} 
+                      name={provider.name} 
+                      className="max-h-full max-w-full" 
+                    />
                   </div>
                   <span>{provider.name}</span>
                 </div>

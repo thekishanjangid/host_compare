@@ -3,6 +3,7 @@ import { PageHeader } from '../components/layout/PageHeader';
 import { Button } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { Badge } from '../components/ui/Badge';
+import { ProviderLogo } from '../components/ui/ProviderLogo';
 import { providers } from '../data/providers';
 import { Check, ExternalLink, Trophy } from 'lucide-react';
 
@@ -51,7 +52,11 @@ export default function TopPicks() {
               <Card key={idx} className="p-8 border-l-4 border-l-brand-600">
                 <div className="flex flex-col md:flex-row gap-8 items-start">
                   <div className="md:w-1/4 flex flex-col items-center text-center">
-                    <img src={provider.logo} alt={provider.name} className="max-h-16 mb-4 object-contain" />
+                    <ProviderLogo 
+                      providerId={provider.id} 
+                      name={provider.name} 
+                      className="max-h-16 mb-4" 
+                    />
                     <Badge variant="brand" className="mb-2">{provider.rating} / 5</Badge>
                   </div>
                   

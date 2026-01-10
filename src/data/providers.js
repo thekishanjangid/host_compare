@@ -3,7 +3,6 @@ export const providers = [
   {
     id: 'namecheap',
     name: 'Namecheap',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Namecheap_Logo.svg/1200px-Namecheap_Logo.svg.png',
     description: 'The best place to buy cheap domain names with free privacy protection.',
     rating: 4.8,
     startingPrice: 9.98,
@@ -19,7 +18,6 @@ export const providers = [
   {
     id: 'godaddy',
     name: 'GoDaddy',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/GoDaddy_Logo.svg/2560px-GoDaddy_Logo.svg.png',
     description: 'The world’s largest domain registrar with a vast marketplace.',
     rating: 4.5,
     startingPrice: 11.99,
@@ -35,7 +33,6 @@ export const providers = [
   {
     id: 'dynadot',
     name: 'Dynadot',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/2/22/Dynadot_logo.png',
     description: 'Great interface and transparent pricing for domain investors.',
     rating: 4.7,
     startingPrice: 8.99,
@@ -51,7 +48,6 @@ export const providers = [
   {
     id: 'porkbun',
     name: 'Porkbun',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/e/ed/Porkbun_Logo.png',
     description: 'Quirky branding with some of the lowest renewal rates in the industry.',
     rating: 4.9,
     startingPrice: 9.73,
@@ -67,7 +63,6 @@ export const providers = [
   {
     id: 'google-domains',
     name: 'Google Domains',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Google_Domains_logo.svg/2560px-Google_Domains_logo.svg.png',
     description: 'Simple, secure, and reliable integration with Google Workspace.',
     rating: 4.7,
     startingPrice: 12.00,
@@ -83,7 +78,6 @@ export const providers = [
   {
     id: 'ionos',
     name: 'IONOS',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/IONOS_by_1%261_Logo.svg/2560px-IONOS_by_1%261_Logo.svg.png',
     description: 'Very cheap first-year offers for domains and hosting.',
     rating: 4.2,
     startingPrice: 1.00,
@@ -99,7 +93,6 @@ export const providers = [
   {
     id: 'domain-com',
     name: 'Domain.com',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/0/03/Domain.com_logo.png',
     description: 'Reliable registrar focused on simplicity and stability.',
     rating: 4.3,
     startingPrice: 9.99,
@@ -115,7 +108,6 @@ export const providers = [
   {
     id: 'hover',
     name: 'Hover',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/9/9e/Hover_Logo.png',
     description: 'No-nonsense registrar with a focus on privacy and support.',
     rating: 4.8,
     startingPrice: 14.99,
@@ -133,7 +125,6 @@ export const providers = [
   {
     id: 'bluehost',
     name: 'Bluehost',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Bluehost_logo.svg/1200px-Bluehost_logo.svg.png',
     description: 'Best overall hosting for beginners. Recommended by WordPress.org.',
     rating: 4.7,
     startingPrice: 2.95,
@@ -149,7 +140,6 @@ export const providers = [
   {
     id: 'hostinger',
     name: 'Hostinger',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Hostinger_logo.png/1200px-Hostinger_logo.png',
     description: 'Unbeatable price to performance ratio with custom hPanel.',
     rating: 4.8,
     startingPrice: 1.99,
@@ -165,7 +155,6 @@ export const providers = [
   {
     id: 'siteground',
     name: 'SiteGround',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/SiteGround_Logo_2022.svg/2560px-SiteGround_Logo_2022.svg.png',
     description: 'Premium managed WordPress hosting with Google Cloud infrastructure.',
     rating: 4.9,
     startingPrice: 3.99,
@@ -181,7 +170,6 @@ export const providers = [
   {
     id: 'a2-hosting',
     name: 'A2 Hosting',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/A2_Hosting_logo.png',
     description: 'Known for their high-speed Turbo Servers and developer-friendly features.',
     rating: 4.5,
     startingPrice: 2.99,
@@ -197,7 +185,6 @@ export const providers = [
   {
     id: 'dreamhost',
     name: 'DreamHost',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/DreamHost_logo.svg/2560px-DreamHost_logo.svg.png',
     description: 'Reliable, independent hosting with a 97-day money-back guarantee.',
     rating: 4.6,
     startingPrice: 2.59,
@@ -213,7 +200,6 @@ export const providers = [
   {
     id: 'inmotion',
     name: 'InMotion',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/InMotion_Hosting_logo.svg/1200px-InMotion_Hosting_logo.svg.png',
     description: 'US-based support and great VPS options for growing businesses.',
     rating: 4.4,
     startingPrice: 2.29,
@@ -229,7 +215,6 @@ export const providers = [
   {
     id: 'greengeeks',
     name: 'GreenGeeks',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/GreenGeeks_logo.png/800px-GreenGeeks_logo.png',
     description: 'Eco-friendly hosting that matches 300% of energy use with renewables.',
     rating: 4.7,
     startingPrice: 2.95,
@@ -245,7 +230,6 @@ export const providers = [
   {
     id: 'cloudways',
     name: 'Cloudways',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Cloudways_Logo.png/640px-Cloudways_Logo.png',
     description: 'Managed cloud hosting platform using DigitalOcean, AWS, and Google Cloud.',
     rating: 4.9,
     startingPrice: 11.00,

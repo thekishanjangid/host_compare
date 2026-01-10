@@ -3,6 +3,7 @@ import { Layout } from '../components/layout/Layout';
 import { PageHeader } from '../components/layout/PageHeader';
 import { Button } from '../components/ui/Button';
 import { Badge } from '../components/ui/Badge';
+import { ProviderLogo } from '../components/ui/ProviderLogo';
 import { providers } from '../data/providers';
 import { Check, Star, ArrowRight } from 'lucide-react';
 
@@ -25,7 +26,11 @@ export default function Reviews() {
             <div key={provider.id} className="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col">
               <div className="p-6 border-b border-gray-100 flex items-center justify-between">
                 <div className="h-10 w-24 flex items-center">
-                   <img src={provider.logo} alt={provider.name} className="max-h-full max-w-full object-contain" />
+                   <ProviderLogo 
+                     providerId={provider.id} 
+                     name={provider.name} 
+                     className="max-h-full max-w-full" 
+                   />
                 </div>
                 <div className="flex items-center text-yellow-400 font-bold text-sm">
                   <Star className="w-4 h-4 fill-current mr-1" />
