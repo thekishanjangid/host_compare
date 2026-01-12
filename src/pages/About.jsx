@@ -1,7 +1,7 @@
 import { Layout } from '../components/layout/Layout';
 import { PageHeader } from '../components/layout/PageHeader';
 import { Card } from '../components/ui/Card';
-import { CheckCircle2, Users, Search, BarChart } from 'lucide-react';
+import { CheckCircle2, Users, Search, BarChart, Mail, Phone, MapPin, User } from 'lucide-react';
 
 export default function About() {
   return (
@@ -16,7 +16,7 @@ export default function About() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Who We Are</h2>
           <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-            Welcome to HostAdvisorPro. Founded in 2026, our mission is simple: to bring transparency to the often confusing world of web infrastructure. We are a team of developers, writers, and digital marketers who know how hard it can be to choose the right tools for a new project.
+            Welcome to HostAdvisorPro. our mission is simple: to bring transparency to the often confusing world of web infrastructure. We are a team of developers, writers, and digital marketers who know how hard it can be to choose the right tools for a new project.
           </p>
           <p className="text-lg text-gray-600 leading-relaxed">
             We are not a hosting company. We are an educational resource that tests, reviews, and compares services to help you make an informed decision.
@@ -38,6 +38,20 @@ export default function About() {
               <p className="text-gray-600">We monitor uptime, load speeds, and server response times to separate the fast hosts from the slow ones.</p>
             </Card>
           </div>
+        </section>
+
+        {/* Meet the Founder */}
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Meet the Founder</h2>
+          <Card className="p-8">
+            <div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Kishan Jangid</h3>
+              <p className="text-brand-600 font-medium mb-4">Founder, HostAdvisorPro</p>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                With a deep background in web hosting, domain infrastructure, and website performance, I founded HostAdvisorPro to bring clarity to the hosting industry. My mission is to provide transparent, data-driven recommendations that help you build a stronger online presence—without the confusion.
+              </p>
+            </div>
+          </Card>
         </section>
 
         {/* Editorial Standards */}
@@ -68,9 +82,36 @@ export default function About() {
           <p className="text-lg text-gray-600 mb-4">
             We believe that the best recommendation is an honest one. Whether you are launching a personal blog or scaling a SaaS startup, our goal is to point you toward the tools that will actually support your growth, not just the ones that pay the highest commission.
           </p>
-          <p className="text-lg text-gray-600">
-            Have questions? Feel free to reach out to us at <a href="mailto:support@hostadvisorpro.com" className="text-brand-600 hover:text-brand-700 font-medium">support@hostadvisorpro.com</a>.
-          </p>
+        </section>
+
+        {/* Contact Us */}
+        <section className="mb-0">
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Get in Touch</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Card className="p-6 flex flex-col items-center text-center hover:shadow-md transition-shadow">
+              <Mail className="w-8 h-8 text-brand-600 mb-4" />
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Email Support</h3>
+              <a href="mailto:support@hostadvisorpro.com" className="text-gray-600 hover:text-brand-600">
+                support@hostadvisorpro.com
+              </a>
+            </Card>
+            
+            <Card className="p-6 flex flex-col items-center text-center hover:shadow-md transition-shadow">
+              <Phone className="w-8 h-8 text-brand-600 mb-4" />
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Phone</h3>
+              <a href="tel:+916378509541" className="text-gray-600 hover:text-brand-600">
+                +91 63785 09541
+              </a>
+            </Card>
+            
+            <Card className="p-6 flex flex-col items-center text-center hover:shadow-md transition-shadow">
+              <MapPin className="w-8 h-8 text-brand-600 mb-4" />
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Location</h3>
+              <p className="text-gray-600">
+                Jaipur, Rajasthan, India
+              </p>
+            </Card>
+          </div>
         </section>
       </div>
     </Layout>

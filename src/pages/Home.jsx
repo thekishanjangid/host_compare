@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { Layout } from '../components/layout/Layout';
 import { Button } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
@@ -11,6 +12,19 @@ import { CheckCircle2, ShieldCheck, Zap } from 'lucide-react';
 
 export default function Home() {
   const topProviders = providers.slice(0, 3);
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.state?.scrollTo === 'compare-providers') {
+      const section = document.getElementById('compare-providers');
+      if (section) {
+        // Short timeout to ensure render completion
+        setTimeout(() => {
+          section.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      }
+    }
+  }, [location]);
 
   return (
     <Layout>
@@ -29,7 +43,7 @@ export default function Home() {
           </p>
           <div className="flex justify-center gap-4">
             <Button size="lg" asChild>
-              <a href="#comparison">Compare Now</a>
+              <a href="#compare-providers">Compare Now</a>
             </Button>
             <Button variant="secondary" size="lg" asChild>
               <Link to="/about">How We Review</Link>
@@ -42,7 +56,7 @@ export default function Home() {
       </section>
 
       {/* Comparison Table Section */}
-      <section id="comparison" className="py-16 bg-gray-50">
+      <section id="compare-providers" className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900">Top 3 Hosting Providers</h2>

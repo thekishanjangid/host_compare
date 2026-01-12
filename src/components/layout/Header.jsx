@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Button } from '../ui/Button';
 import { Menu, X, Globe, ChevronDown } from 'lucide-react';
 
@@ -20,7 +20,23 @@ export function Header() {
     { name: 'Blog', href: '/blog' },
   ];
 
+  const navigate = useNavigate();
   const isActive = (path) => location.pathname === path;
+  const closeMenu = () => setIsMenuOpen(false);
+
+  const handleCompareClick = (e) => {
+    e.preventDefault();
+    closeMenu();
+    
+    if (location.pathname === '/') {
+      const section = document.getElementById('compare-providers');
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      navigate('/', { state: { scrollTo: 'compare-providers' } });
+    }
+  };
 
   return (
     <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
@@ -49,7 +65,7 @@ export function Header() {
               </Link>
             ))}
             <AffiliateDisclosureTooltip />
-            <Button size="sm" className="ml-4">
+            <Button size="sm" className="ml-4" onClick={handleCompareClick}>
               Compare Providers
             </Button>
           </div>
@@ -90,7 +106,9 @@ export function Header() {
             ))}
             <AffiliateDisclosureTooltip mobile />
             <div className="pt-4">
-              <Button className="w-full">Compare Providers</Button>
+              <Button className="w-full" onClick={handleCompareClick}>
+                Compare Providers
+              </Button>
             </div>
           </div>
         </div>
