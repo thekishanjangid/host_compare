@@ -241,5 +241,20 @@ export const providers = [
     bestFor: 'VPS/Cloud',
     type: 'vps',
     affiliateLink: 'https://www.cloudways.com'
+  },
+  {
+    id: 17,
+    name: 'Kinsta',
+    description: 'Premium managed WordPress hosting powered by Google Cloud Platform with enterprise-grade performance.',
+    rating: 4.9,
+    startingPrice: 30.00,
+    currency: '$',
+    period: '/mo',
+    features: ['Google Cloud Platform C3D', 'Free Cloudflare CDN', 'Automatic Daily Backups', 'Free SSL & SSH Access', '24/7 Expert Support'],
+    pros: ['Exceptional speed & 99.9% uptime', 'Expert WordPress support 24/7', 'Free staging environments', 'First month free on select plans'],
+    cons: ['Higher price point', 'WordPress sites only'],
+    bestFor: 'Hosting',
+    type: 'hosting',
+    affiliateLink: 'https://kinsta.com/pricing/?kaid=WZRCWRKQRAMO'
   }
 ];

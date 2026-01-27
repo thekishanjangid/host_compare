@@ -17,6 +17,7 @@ import dreamhostLogo from '../../assets/logo/dreamhost-vertical.svg';
 import inmotionLogo from '../../assets/logo/inmotion-vertical.svg';
 import greengeeksLogo from '../../assets/logo/GreenGeeks.png';
 import cloudwaysLogo from '../../assets/logo/cloudways-vertical.svg';
+import kinstaLogo from '../../assets/logo/kinsta-logo.png';
 
 const logoMap = {
   1: namecheapLogo,
@@ -35,6 +36,7 @@ const logoMap = {
   14: inmotionLogo,
   15: greengeeksLogo,
   16: cloudwaysLogo,
+  17: kinstaLogo,
 };
 
 // Simple SVG placeholder for fallback

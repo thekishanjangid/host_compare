@@ -14,6 +14,15 @@ export default function Home() {
   const topProviders = providers.slice(0, 3);
   const location = useLocation();
 
+  // Featured providers for detailed reviews (mix of domains and hosting including Kinsta)
+  const kinsta = providers.find(p => p.name === 'Kinsta');
+  const featuredReviewProviders = [
+    providers[0],  // Namecheap (domain)
+    providers[8],  // Bluehost (hosting)
+    providers[10], // SiteGround (hosting)
+    kinsta,        // Kinsta (hosting)
+  ].filter(Boolean);
+
   useEffect(() => {
     if (location.state?.scrollTo === 'compare-providers') {
       const section = document.getElementById('compare-providers');
@@ -74,7 +83,7 @@ export default function Home() {
           </div>
           
           <div className="space-y-8">
-            {providers.slice(0, 4).map((provider, index) => (
+            {featuredReviewProviders.map((provider, index) => (
               <ProviderCard key={provider.id} provider={provider} featured={index === 0} />
             ))}
           </div>
